@@ -1,0 +1,60 @@
+.content a{
+    color: #2176FF;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  a:hover{  
+    color: #0F36CE;
+    text-decoration: none;
+  
+  }
+  .nav-link{
+    cursor: pointer;
+    color: #2176FF
+    
+  }
+  .nav-link:hover{
+    border: 1px solid #FFFFFF;
+  
+    
+  }
+  .nav-link:active{
+    font-size: 17px;
+    transition: font-size .1s;
+  }
+  
+  .btn{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #FEFEFE;
+    color: #1369FD;
+    font-family: 'Raleway', san-serif;
+    border: 1px solid #1241FE;
+  }
+  
+  .btn:hover{
+    background-color: #B5BAC3;
+    cursor: pointer;
+    font-size: 20px;
+    
+  
+  }
+  .btn:active{
+    font-size: 22px;
+    transition: all 1s ease-out;
+  }
+  
+  .activity{
+    border: 1px solid #2176FF;
+  
+  }
+  .activity:hover{
+    background-color: #fff;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px #5DDDF7;
+    transition: color .1s ease-in, background-color .1s ease-in;
+  }
+  .activity:active {
+    font-size: 40px;
+    transition: font-size .1s;
+  }
